@@ -5,11 +5,11 @@ import enum
 
 class Hand_detector():
     """
-        Класс для обнаружения положения рук и каждой фаланги (список ниже)
+        Class for detecting the position of the hands and each phalanx (list below).
     """
     class Landsmarks(enum.Enum):
         """
-            Коды того, какое положение приняли пальцы
+            Codes for which position the fingers took.
         """
         WRIST = 0
         THUMB_CMC = 1
